@@ -1,0 +1,21 @@
+{
+  "name": "mail_form",
+  "version": "0.1.0",
+  "bin": {
+    "mail_form": "bin/mail_form.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "package": "zip -r lambda.zip src/*",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.162.1",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.162.1",
+    "constructs": "^10.0.0"
+  }
+}
