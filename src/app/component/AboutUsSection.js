@@ -3,7 +3,7 @@ import React from 'react';
 const AboutUs = () => {
   return (
     <div className='bg-secondary py-20'>
-      <h1 className=' text-red-600 text-center  text-lg lg:text-2xl pb-12'>
+      <h1 className=' text-red-600 text-center  text-3xl lg:text-4xl pb-12'>
       Welcome to Xploroo Taxi
 
       </h1>

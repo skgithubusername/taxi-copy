@@ -58,7 +58,7 @@ const Activities = () => {
   return (
     <div className='bg-secondary py-20'>
       <div className='w-11/12 md:w-10/12 mx-auto'>
-        <h2 className='text-3xl md:text-4xl text-primary text-center mb-8'>Activities</h2>
+        <h2 className='text-3xl md:text-4xl text-primary text-center mb-8'>Package</h2>
         <p className='text-xl md:text-2xl font-light text-primary text-center mb-12'>
           Enjoy a range of activities in Himachal with  Xploroo taxiTaxi Service, including beach trips, sightseeing, and more.
         </p>
