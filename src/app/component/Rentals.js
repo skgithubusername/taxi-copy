@@ -8,7 +8,7 @@ const rentals = [
   { id: 3, name: 'i20', description: 'A premium hatchback known for its sleek design and advanced features.', category: '4-wheeler', image: '/img/rentals/hyundai-i20.jpg' },
   { id: 4, name: 'Ertiga', description: 'A spacious MPV, ideal for family outings and group travels.', category: '4-wheeler', image: '/img/rentals/ertiga.jpg' },
   { id: 5, name: 'Innova Crysta', description: 'A luxurious SUV with ample space and powerful performance for long journeys.', category: '4-wheeler', image: '/img/rentals/inova-crysta.jpg' },
-  { id: 5, name: 'Innova Crysta', description: 'A luxurious SUV with ample space and powerful performance for long journeys.', category: '4-wheeler', image: '/img/blog/tempo.jpg' },
+  { id: 5, name: 'Tempo Traveler ', description: 'A luxurious SUV with ample space and powerful performance for long journeys.', category: '4-wheeler', image: '/img/blog/tempo.jpg' },
   // { id: 6, name: 'Activa', description: 'A reliable scooter, perfect for quick and easy commutes around the city.', category: '2-wheeler', image: '/img/rentals/home-activa.jpg' },
   // { id: 7, name: 'Fascino', description: 'A stylish and lightweight scooter, offering both elegance and efficiency.', category: '2-wheeler', image: '/img/rentals/yamaha-fascino.jpg' },
 ];

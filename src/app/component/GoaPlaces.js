@@ -6,35 +6,35 @@ const places = [
     // North Himachal
     { id: 1, title: 'Fort Aguada', category: 'north-Himachal', description: 'A well-preserved 17th-century Portuguese fort, offering panoramic views of the Arabian Sea.',  image: '/img/blog/home1.jpg',},
     { id: 2, title: 'Dolphin Sightseeing', category: 'north-Himachal', description: 'A popular activity in Himachal, where tourists can enjoy watching dolphins in their natural habitat.', image:'/img/blog/home2.jpg' },
-    { id: 3, title: 'Candolim Beach', category: 'north-Himachal', description: 'A serene beach known for its long sandy stretch, popular for water sports and beach shacks.', image: '/img/blog/home3.jpg' },
-    { id: 4, title: 'Baga Beach', category: 'north-Himachal', description: 'A lively beach famous for its nightlife, water sports, and bustling atmosphere.', image: '/img/blog/home4.jpg' },
-    { id: 5, title: 'Anjuna Beach (Viewpoint)', category: 'north-Himachal', description: 'A scenic viewpoint offering stunning views of Anjuna Beach, known for its rocky shores and vibrant markets.', image: '/img/blog/home5.jpg' },
-    { id: 6, title: 'Vagator Beach', category: 'north-Himachal', description: 'A picturesque beach known for its dramatic red cliffs and a laid-back vibe.', image: '/img/blog/home6.jpg' },
-    { id: 7, title: 'Chapora Fort', category: 'north-Himachal', description: 'A historical fort offering panoramic views of the Vagator Beach and Chapora River.', image: '/img/blog/home7.jpg' },
-    { id: 8, title: 'Calangute Beach', category: 'north-Himachal', description: 'Known as the “Queen of Beaches,” it is the largest beach in Himachal, popular for water activities and vibrant atmosphere.', image: '/img/blog/home14.jpg' },
+    { id: 3, title: 'Candolim mountain', category: 'north-Himachal', description: 'A serene mountain known for its long sandy stretch, popular for water sports and mountain shacks.', image: '/img/blog/home3.jpg' },
+    { id: 4, title: 'Baga mountain', category: 'north-Himachal', description: 'A lively mountain famous for its nightlife, water sports, and bustling atmosphere.', image: '/img/blog/home4.jpg' },
+    { id: 5, title: 'Anjuna mountain (Viewpoint)', category: 'north-Himachal', description: 'A scenic viewpoint offering stunning views of Anjuna mountain, known for its rocky shores and vibrant markets.', image: '/img/blog/home5.jpg' },
+    { id: 6, title: 'Vagator mountain', category: 'north-Himachal', description: 'A picturesque mountain known for its dramatic red cliffs and a laid-back vibe.', image: '/img/blog/home6.jpg' },
+    { id: 7, title: 'Chapora Fort', category: 'north-Himachal', description: 'A historical fort offering panoramic views of the Vagator mountain and Chapora River.', image: '/img/blog/home7.jpg' },
+    { id: 8, title: 'Calangute mountain', category: 'north-Himachal', description: 'Known as the “Queen of mountaines,” it is the largest mountain in Himachal, popular for water activities and vibrant atmosphere.', image: '/img/blog/home14.jpg' },
 
     // External North Himachal
-    { id: 9, title: 'Morjim Beach', category: 'external-north-Himachal', description: 'A tranquil beach known for its nesting site of the endangered Olive Ridley turtles.', image: '/img/blog/home9.jpg' },
-    { id: 10, title: 'Ashwem Beach', category: 'external-north-Himachal', description: 'A peaceful beach with soft sands and palm groves, perfect for relaxation.', image: '/img/blog/home10.jpg' },
-    { id: 11, title: 'Mandrem Beach', category: 'external-north-Himachal', description: 'A serene beach with white sands, ideal for a quiet getaway.', image: '/img/blog/home11.jpg' },
-    { id: 12, title: 'Arambol Beach', category: 'external-north-Himachal', description: 'A popular beach with a bohemian vibe, known for its live music and drum circles.', image: '/img/blog/home12.jpg' },
+    { id: 9, title: 'Morjim mountain', category: 'external-north-Himachal', description: 'A tranquil mountain known for its nesting site of the endangered Olive Ridley turtles.', image: '/img/blog/home9.jpg' },
+    { id: 10, title: 'Ashwem mountain', category: 'external-north-Himachal', description: 'A peaceful mountain with soft sands and palm groves, perfect for relaxation.', image: '/img/blog/home10.jpg' },
+    { id: 11, title: 'Mandrem mountain', category: 'external-north-Himachal', description: 'A serene mountain with white sands, ideal for a quiet getaway.', image: '/img/blog/home11.jpg' },
+    { id: 12, title: 'Arambol mountain', category: 'external-north-Himachal', description: 'A popular mountain with a bohemian vibe, known for its live music and drum circles.', image: '/img/blog/home12.jpg' },
 
     // South Himachal
     { id: 13, title: 'Old Himachal Church', category: 'south-Himachal', description: 'A UNESCO World Heritage site, famous for its stunning baroque architecture.', image: '/img/blog/home13.jpg' },
     { id: 14, title: 'Balaji Temple', category: 'south-Himachal', description: 'A beautiful temple dedicated to Lord Balaji, known for its serene environment.', image: '/img/blog/home14.jpg' },
     { id: 15, title: 'Mangeshi Temple', category: 'south-Himachal', description: 'One of the largest and most visited temples in Himachal, dedicated to Lord Shiva.', image: '/img/blog/home1.jpg' },
     { id: 16, title: 'Spice Plantation', category: 'south-Himachal', description: 'Explore the lush plantations and learn about the spices that are cultivated in Himachal.', image: '/img/blog/home2.jpg' },
-    { id: 17, title: 'Dona Paula Beach', category: 'south-Himachal', description: 'A scenic beach known for its water sports and the romantic legend of Dona Paula.', image: '/img/blog/home3.jpg' },
-    { id: 18, title: 'Miramar Beach', category: 'south-Himachal', description: 'A popular beach near Panjim, offering a lovely view of the sunset.', image: '/img/blog/home4.jpg' },
+    { id: 17, title: 'Dona Paula mountain', category: 'south-Himachal', description: 'A scenic mountain known for its water sports and the romantic legend of Dona Paula.', image: '/img/blog/home3.jpg' },
+    { id: 18, title: 'Miramar mountain', category: 'south-Himachal', description: 'A popular mountain near Panjim, offering a lovely view of the sunset.', image: '/img/blog/home4.jpg' },
     { id: 19, title: 'Panjim Market', category: 'south-Himachal', description: 'A bustling market in the heart of Panjim, known for its fresh produce and local handicrafts.', image: '/img/blog/home5.jpg' },
     { id: 20, title: 'Panjim Church', category: 'south-Himachal', description: 'The Our Lady of the Immaculate Conception Church, a famous landmark with stunning architecture.', image: '/img/blog/home6.jpg'},
     { id: 21, title: 'Boat Cruise (Sunset Cruise)', category: 'south-Himachal', description: 'Enjoy a beautiful sunset while cruising along the Mandovi River.', image: '/img/blog/home14.jpg' },
 
     // External South Himachal
-    { id: 22, title: 'Colva Beach', category: 'external-south-Himachal', description: 'A popular beach known for its white sands and vibrant nightlife.', image: '/img/blog/home4.jpg' },
-    { id: 23, title: 'Majorda Beach', category: 'external-south-Himachal', description: 'A tranquil beach, ideal for swimming and relaxing.', image: '/img/blog/home9.jpg' },
-    { id: 24, title: 'Utorda Beach', category: 'external-south-Himachal', description: 'A quiet beach with golden sands, perfect for a peaceful retreat.', image: '/img/blog/home10.jpg' },
-    { id: 25, title: 'Varca Beach', category: 'external-south-Himachal', description: 'A serene and less crowded beach, ideal for a relaxing day out.', image: '/img/blog/home11.jpg' },
+    { id: 22, title: 'Colva mountain', category: 'external-south-Himachal', description: 'A popular mountain known for its white sands and vibrant nightlife.', image: '/img/blog/home4.jpg' },
+    { id: 23, title: 'Majorda mountain', category: 'external-south-Himachal', description: 'A tranquil mountain, ideal for swimming and relaxing.', image: '/img/blog/home9.jpg' },
+    { id: 24, title: 'Utorda mountain', category: 'external-south-Himachal', description: 'A quiet mountain with golden sands, perfect for a peaceful retreat.', image: '/img/blog/home10.jpg' },
+    { id: 25, title: 'Varca mountain', category: 'external-south-Himachal', description: 'A serene and less crowded mountain, ideal for a relaxing day out.', image: '/img/blog/home11.jpg' },
 
     // Waterfalls
     { id: 26, title: 'Dudhsagar Waterfall', category: 'waterfall', description: 'One of the tallest waterfalls in India, known for its stunning cascade amidst lush greenery.', image: '/img/blog/home12.jpg' },

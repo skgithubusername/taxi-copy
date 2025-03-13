@@ -80,20 +80,20 @@ const Footer = () => {
                         </div>
                         <ul>
                             <li className="mb-2">
-                                <a href="mailto:dhanasinglamani44204@gmail.com" className="hover:text-gray-300 transition-colors duration-300 ease-in-out">
-                                    dhanasinglamani44204@gmail.com
+                                <a href="mailto:xploroo5@gmail.com" className="hover:text-gray-300 transition-colors duration-300 ease-in-out">
+                                    xploroo5@gmail.com
                                 </a>
                             </li>
                             <li className="mb-2">
                                 <a href="tel:+917083394460" className="hover:text-gray-300 transition-colors duration-300 ease-in-out">
-                                    +91 7083394460
+                                8091595344
                                 </a>
                             </li>
-                            <li className="mb-2">
+                            {/* <li className="mb-2">
                                 <a href="tel:+918150805883" className="hover:text-gray-300 transition-colors duration-300 ease-in-out">
                                     +91 8150805883
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
 
