@@ -12,10 +12,10 @@ export default function HimachalSecrets() {
   return (
     <div className="bg-black text-yellow-400 min-h-screen p-6">
       <h1 className="text-4xl font-bold text-center mb-6">
-        Exploring Himachal Pradesh’s Secrets: Unconventional Sites with Taxi Access
+        Exploring Himachal Pradesh&rsquo;s Secrets: Unconventional Sites with Taxi Access
       </h1>
       <p className="text-center mb-6">
-      Himachal Pradesh is more than just its popular hill stations and snow-capped peaks. While destinations like Shimla, Manali, and Dharamshala attract most tourists, the state is home to countless hidden gems that offer a peaceful escape into nature, history, and culture. If you’re an adventurer at heart and want to explore beyond the usual tourist trails, get ready for a surprise – because with our easy taxi booking, these magical spots are just a ride away from your doorstep.  
+      Himachal Pradesh is more than just its popular hill stations and snow-capped peaks. While destinations like Shimla, Manali, and Dharamshala attract most tourists, the state is home to countless hidden gems that offer a peaceful escape into nature, history, and culture. If you&rsquo;re an adventurer at heart and want to explore beyond the usual tourist trails, get ready for a surprise – because with our easy taxi booking, these magical spots are just a ride away from your doorstep.  
       </p>
       
       <div className="grid md:grid-cols-2 my-12 gap-6">
@@ -24,10 +24,10 @@ export default function HimachalSecrets() {
             ⛰ Barot Valley: A Tranquil Escape into the Wild
           </h2>
           <p className="mt-2">
-          Tucked away in the Mandi district, Barot Valley is one of Himachal Pradesh’s best-kept secrets. Nestled along the Uhl River, this serene valley is perfect for those seeking peace and solitude amidst nature. Surrounded by dense forests and lush greenery, Barot offers opportunities for trout fishing, trekking, and birdwatching.  
+          Tucked away in the Mandi district, Barot Valley is one of Himachal Pradesh&rsquo;s best-kept secrets. Nestled along the Uhl River, this serene valley is perfect for those seeking peace and solitude amidst nature. Surrounded by dense forests and lush greenery, Barot offers opportunities for trout fishing, trekking, and birdwatching.  
           </p>
           <p className="mt-2">
-          Reaching Barot Valley can be challenging due to its remote location, but with our taxi service, you don’t have to worry about navigating the winding roads. Our drivers will take you straight to this hidden paradise, where you can spend a peaceful day exploring its beauty.  
+          Reaching Barot Valley can be challenging due to its remote location, but with our taxi service, you don&rsquo;t have to worry about navigating the winding roads. Our drivers will take you straight to this hidden paradise, where you can spend a peaceful day exploring its beauty.  
           </p>
         </div>
 
@@ -48,16 +48,16 @@ export default function HimachalSecrets() {
      <div className="  my-12 flex justify-center items-center flex-col px-12">
      <h2 className="text-3xl font-bold mt-8">Other Hidden Secrets You Can Uncover:</h2>
       <ul className="list-disc list-inside mt-4 space-y-2">
-        <li><strong>Churdhar Peak: A Trekker’s Paradise</strong>Located in the Sirmaur district, Churdhar is the highest peak in the outer Himalayas. It offers stunning panoramic views of the surrounding valleys and is a popular spot for trekking enthusiasts.   </li>
-        <li><strong>Jalori Pass:A Scenic Gateway to Serenity</strong> Situated at an altitude of 10,800 feet, Jalori Pass is a lesser-known destination that offers breathtaking views and serene surroundings. It’s perfect for those who love nature and adventure.  </li>
-        <li><strong>Bir-Billing:The Paragliding Haven</strong>Known as the paragliding capital of India, Bir-Billing is a hidden gem that offers thrilling adventures and peaceful monasteries. It’s an ideal spot for both adventure seekers and spiritual travelers.  </li>
+        <li><strong>Churdhar Peak: A Trekker&rsquo;s Paradise</strong>Located in the Sirmaur district, Churdhar is the highest peak in the outer Himalayas. It offers stunning panoramic views of the surrounding valleys and is a popular spot for trekking enthusiasts.   </li>
+        <li><strong>Jalori Pass:A Scenic Gateway to Serenity</strong> Situated at an altitude of 10,800 feet, Jalori Pass is a lesser-known destination that offers breathtaking views and serene surroundings. It&rsquo;s perfect for those who love nature and adventure.  </li>
+        <li><strong>Bir-Billing:The Paragliding Haven</strong>Known as the paragliding capital of India, Bir-Billing is a hidden gem that offers thrilling adventures and peaceful monasteries. It&rsquo;s an ideal spot for both adventure seekers and spiritual travelers.  </li>
       </ul>
      </div>
      <div className=" my-12 flex justify-center items-center flex-col px-12">
       
       <h2 className="text-3xl font-bold mb-4 mt-8">Why Choose Our Taxi Service?</h2>
       <p className=" text-center text-gray-300">
-      Exploring Himachal Pradesh’s hidden treasures has never been easier. With our reliable taxi service, you can enjoy a comfortable ride to some of the state’s most offbeat and beautiful destinations.  
+      Exploring Himachal Pradesh&rsquo;s hidden treasures has never been easier. With our reliable taxi service, you can enjoy a comfortable ride to some of the state&rsquo;s most offbeat and beautiful destinations.  
       </p>
       <ul className="list-disc list-inside mt-4 space-y-2">
         <li><strong>Local Expertise:</strong> Our professional drivers know every corner of Himachal Pradesh, ensuring a smooth and hassle-free journey.  </li>
@@ -69,7 +69,7 @@ export default function HimachalSecrets() {
       
       <h2 className="text-3xl text-center font-bold mt-8">Conclusion</h2>
       <p className="mt-4 text-center ">
-        Himachal Pradesh’s lesser-known attractions are waiting to be discovered, and there’s no better way to explore them than with our trusted taxi service. From the tranquil Barot Valley to the mysterious Malana Village, we’re here to take you on a journey of a lifetime.
+        Himachal Pradesh&rsquo;s lesser-known attractions are waiting to be discovered, and there&rsquo;s no better way to explore them than with our trusted taxi service. From the tranquil Barot Valley to the mysterious Malana Village, we’re here to take you on a journey of a lifetime.
       </p>
       
       <div className="text-center mt-8">

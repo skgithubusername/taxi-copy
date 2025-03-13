@@ -1,7 +1,7 @@
 import React from 'react';
 import { 
   CheckCircle, 
-  Car, 
+  
   Users, 
   User, 
   DollarSign, 
@@ -29,7 +29,7 @@ export default function HimachalTaxiService() {
             <h1 className="text-4xl md:text-5xl font-bold text-yellow-400 mb-4">Himachal Pradesh on a Shoestring</h1>
             <p className="text-xl text-white my-8">Low-Cost Taxi Options for Budget Tourists</p>
             <p className="text-lg mb-8">
-            Himachal Pradesh, with its majestic mountains, serene valleys, and rich cultural heritage, is a dream destination for every traveler. But exploring this paradise doesn't have to be expensive. If you're planning a budget-friendly trip to Himachal Pradesh, transportation is a key factor. That's where we come in – offering affordable taxi services that let you explore Himachal without burning a hole in your pocket.
+            Himachal Pradesh, with its majestic mountains, serene valleys, and rich cultural heritage, is a dream destination for every traveler. But exploring this paradise doesn&apos;t  have to be expensive. If you&apos;re planning a budget-friendly trip to Himachal Pradesh, transportation is a key factor. That&apos;s where we come in – offering affordable taxi services that let you explore Himachal without burning a hole in your pocket.
           </p>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function HimachalTaxiService() {
                 <DollarSign className="h-8 w-8 text-yellow-400 mr-3" />
                 <h3 className="text-xl font-semibold text-yellow-400">Competitive Prices and Transparent Fares</h3>
               </div>
-              <p>We know every penny matters when you're traveling on a budget. Our taxi rates are among the most competitive in Himachal Pradesh, with no hidden charges. The price we quote is the price you pay.</p>
+              <p>We know every penny matters when you&apos;re traveling on a budget. Our taxi rates are among the most competitive in Himachal Pradesh, with no hidden charges. The price we quote is the price you pay.</p>
             </div>
 
             {/* Card 2 */}
@@ -56,7 +56,7 @@ export default function HimachalTaxiService() {
                 <Calendar className="h-8 w-8 text-yellow-400 mr-3" />
                 <h3 className="text-xl font-semibold text-yellow-400">Customizable Packages</h3>
               </div>
-              <p>Whether you're visiting for a weekend, a week, or longer, we offer flexible taxi packages tailored to your needs. Choose from half-day, full-day, or multi-day hires at wallet-friendly rates.</p>
+              <p>Whether you&apos;re visiting for a weekend, a week, or longer, we offer flexible taxi packages tailored to your needs. Choose from half-day, full-day, or multi-day hires at wallet-friendly rates.</p>
             </div>
 
             {/* Card 3 */}
@@ -74,7 +74,7 @@ export default function HimachalTaxiService() {
                 <User className="h-8 w-8 text-yellow-400 mr-3" />
                 <h3 className="text-xl font-semibold text-yellow-400">Local and Knowledgeable Drivers</h3>
               </div>
-              <p>Our experienced drivers not only ensure a safe journey but also act as your local guides. They'll share insider tips on hidden trails, budget-friendly eateries, and offbeat attractions in Himachal Pradesh.</p>
+              <p>Our experienced drivers not only ensure a safe journey but also act as your local guides. They&apos;ll share insider tips on hidden trails, budget-friendly eateries, and offbeat attractions in Himachal Pradesh.</p>
             </div>
 
             {/* Card 5 */}

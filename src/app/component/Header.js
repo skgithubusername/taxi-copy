@@ -226,11 +226,12 @@ const Navbar = () => {
     <nav className={`fixed w-full top-0 z-50 transition-colors duration-300 ${isTransparent && !isOpen ? 'bg-transparent' : 'bg-yellow-500'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
-            <span className={`font-bold transition-colors duration-300 ${isTransparent && !isOpen ? 'text-white' : 'text-black'}`}>
-              D TAXI SERVICE
-            </span>
-          </div>
+        <div className="flex items-center">
+  <span className={`font-bold transition-colors duration-300 ${isTransparent && !isOpen ? 'text-white' : 'text-black'}`}>
+    <img src="/logo2.png" alt="Logo" className="h-16 w-auto" />
+  </span>
+</div>
+
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-6">

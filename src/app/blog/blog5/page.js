@@ -19,7 +19,7 @@ const TaxiServiceGuide = () => {
         </p>
         <h2 className="text-2xl font-bold mt-6">Look for Safety and Reliability</h2>
         <p className=" py-4">
-        The most important factor when choosing a taxi service is safety. Whether you're traveling solo, with family, or with friends, you need to be
+        The most important factor when choosing a taxi service is safety. Whether you&rsquo;re traveling solo, with family, or with friends, you need to be
          confident that you’re in safe hands.  
         </p>
         <ul className="list-disc list-inside mb-4">
@@ -28,7 +28,7 @@ const TaxiServiceGuide = () => {
         </ul>
         <p className=" py-4">
         <p className=" py-4">
-        The most important factor when choosing a taxi service is safety. Whether you're traveling solo, with family, or with friends, you need to be
+        The most important factor when choosing a taxi service is safety. Whether you&rsquo;re traveling solo, with family, or with friends, you need to be
          confident that you’re in safe hands.  
         </p> 
         </p>
@@ -45,14 +45,14 @@ const TaxiServiceGuide = () => {
         </p> 
         <h2 className="text-2xl font-bold mt-6">Availability and Flexibility</h2>
         <p className=" py-4">
-        When exploring a place as diverse as Himachal Pradesh, you want a taxi service that's available whenever you need it. Flexible booking options and 24/7 availability are a must, especially if you plan to visit remote destinations or have late-night travel plans.  
+        When exploring a place as diverse as Himachal Pradesh, you want a taxi service that&rsquo;s available whenever you need it. Flexible booking options and 24/7 availability are a must, especially if you plan to visit remote destinations or have late-night travel plans.  
         </p> 
         <ul className="list-disc list-inside mb-4">
-          <li>24/7 Availability: Choose a service that operates round-the-clock, so you're never left stranded.  </li>
+          <li>24/7 Availability: Choose a service that operates round-the-clock, so you&rsquo;re never left stranded.  </li>
           <li>Booking Flexibility: Look for a service that allows you to book a taxi in advance or on the go via call or online platforms.  </li>
         </ul>
         <p className=" py-4">
-        We pride ourselves on being available for you at all times. Whether it’s early in the morning for a sunrise trip to Rohtang Pass or late at night for a return to the airport, our service is available 24/7. With just a call or a click, your taxi will be on its way.  
+        We pride ourselves on being available for you at all times. Whether it&rsquo;s early in the morning for a sunrise trip to Rohtang Pass or late at night for a return to the airport, our service is available 24/7. With just a call or a click, your taxi will be on its way.  
         </p>
         <h2 className="text-2xl font-bold mt-6">Customer Reviews and Reputation</h2>
         <p className=" py-4">
@@ -67,7 +67,7 @@ const TaxiServiceGuide = () => {
         </p>
         <h2 className="text-2xl font-bold mt-6">Comfort and Convenience</h2>
         <p className=" py-4">
-        When exploring Himachal Pradesh, comfort and convenience should be a priority. Whether you're traveling a short distance to a local market or taking a longer journey to a remote village, you want a comfortable ride to enhance your experience.  
+        When exploring Himachal Pradesh, comfort and convenience should be a priority. Whether you&rsquo;re traveling a short distance to a local market or taking a longer journey to a remote village, you want a comfortable ride to enhance your experience.  
         </p>
         <ul className="list-disc list-inside mb-4">
           <li>Air-Conditioned Vehicles: While the weather in Himachal can be cool, air-conditioned vehicles ensure comfort during warmer months or long drives.  </li>
@@ -85,11 +85,11 @@ const TaxiServiceGuide = () => {
           <li>Additional Amenities: Some services provide extra amenities, like Wi-Fi, water bottles, or charging ports, to make your ride more pleasant.  </li>
         </ul>
         <p className=" py-4">
-        We go the extra mile to offer additional services tailored to your needs. Whether it's arranging for a longer tour, special requests, or just adding a little extra comfort to your ride, we ensure your experience is unique and memorable.  
+        We go the extra mile to offer additional services tailored to your needs. Whether it&rsquo;s arranging for a longer tour, special requests, or just adding a little extra comfort to your ride, we ensure your experience is unique and memorable.  
         </p>
         <h2 className="text-2xl font-bold mt-6">Why We Are Different</h2>
         <p className=" py-4">
-        At our taxi service, we believe in going above and beyond to make your journey special. Here’s what sets us apart:  
+        At our taxi service, we believe in going above and beyond to make your journey special. Here&rsquo;s what sets us apart:  
         </p>
         <ul className="list-disc list-inside mb-4">
           <li>Complimentary Snacks Pack Daily: To keep you energized during your travels, we provide a complimentary snacks pack every day.  </li>
@@ -107,7 +107,7 @@ const TaxiServiceGuide = () => {
         </p>
         <h2 className="text-2xl font-bold mt-6">Conclusion</h2>
         <p className="mb-4">
-        Choosing the best taxi service in Himachal Pradesh doesn’t have to be overwhelming. By considering factors such as safety, affordability, availability, and customer reviews, you can ensure a smooth and enjoyable travel experience. With our commitment to excellence, transparent pricing, 24/7 availability, and high-quality service, we are confident that we offer the best taxi experience in Himachal Pradesh.  
+        Choosing the best taxi service in Himachal Pradesh doesn&rsquo;t have to be overwhelming. By considering factors such as safety, affordability, availability, and customer reviews, you can ensure a smooth and enjoyable travel experience. With our commitment to excellence, transparent pricing, 24/7 availability, and high-quality service, we are confident that we offer the best taxi experience in Himachal Pradesh.  
         </p>
         <p className="mb-4">
         Ready to explore Himachal Pradesh with ease and comfort? Book your taxi with us today and experience the mountains like never before

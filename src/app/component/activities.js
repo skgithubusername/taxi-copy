@@ -6,32 +6,32 @@ const activities = [
   {
     title: 'Scuba Dive',
     description: 'Scuba diving is an exciting way to explore the underwater world.',
-    image: '/img/activities/scuba-dive.png',
+    image: '/img/blog/home1.jpg',
   },
   {
     title: 'Beach Parties',
-    description: 'A beach party in Goa is a fun mix of music, dancing, and ocean vibes.',
-    image: '/img/activities/beach-party.png',
+    description: 'A beach party in Himachal is a fun mix of music, dancing, and ocean vibes.',
+    image: '/img/blog/home2.jpg',
   },
   {
     title: 'Flyboarding',
     description: 'Flyboarding is an exciting water sport that lets you soar above the waves using powerful jets.',
-    image: '/img/activities/flyboarding.avif',
+    image: '/img/blog/home3.jpg',
   },
   {
     title: 'Kayaking',
-    description: 'Kayaking in Goa is a peaceful way to explore the serene rivers and scenic coastlines.',
-    image: '/img/activities/kayaking.png',
+    description: 'Kayaking in Himachal is a peaceful way to explore the serene rivers and scenic coastlines.',
+    image: '/img/blog/home4.jpg',
   },
   {
     title: 'Parasailing',
     description: 'Gives you breathtaking aerial views of the coastline as you glide above the sea.',
-    image: '/img/activities/parasailing.png',
+    image: '/img/blog/home5.jpg',
   },
   {
     title: 'Nightlife',
-    description: 'Experience the buzzing nightlife of Goa with bars, clubs, and more.',
-    image: '/img/activities/night-party.jpeg',
+    description: 'Experience the buzzing nightlife of Himachal with bars, clubs, and more.',
+    image: '/img/blog/home6.jpg',
   },
 ];
 
@@ -60,7 +60,7 @@ const Activities = () => {
       <div className='w-11/12 md:w-10/12 mx-auto'>
         <h2 className='text-3xl md:text-4xl text-primary text-center mb-8'>Activities</h2>
         <p className='text-xl md:text-2xl font-light text-primary text-center mb-12'>
-          Enjoy a range of activities in Goa with Dhanish Taxi Service, including beach trips, sightseeing, and more.
+          Enjoy a range of activities in Himachal with  Xploroo taxiTaxi Service, including beach trips, sightseeing, and more.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -93,7 +93,7 @@ const blogs = [
   {
     id: 7,
     title: "Kullu – The Valley of Gods",
-    image: "/img/blog/blog8.jpg",
+    image: "/img/blog/blog11.jpg",
     description: "Kullu is famous for its temples, apple orchards, and the Beas River. It’s a great destination for those seeking peace and natural beauty.",
     subdescription: "How to Reach There via Taxi: Our taxis will take you through the lush green valleys of Kullu, offering a serene travel experience.  ",
     subtitle: "How to Reach There via Taxi",
@@ -149,7 +149,7 @@ export default function Blog1() {
         Top 10 Tourist Sites in Himachal Pradesh and How to Get There with a Taxi  
         </h1>
         <p className="text-gray-300 text-center mb-12 max-w-3xl mx-auto">
-        Himachal Pradesh, with its majestic mountains, serene valleys, and rich cultural heritage, is a paradise for travelers. Whether you're here for the snow-capped peaks, ancient temples, or lush landscapes, there's something for everyone in this beautiful state. The best way to explore Himachal Pradesh is with a reliable taxi service. Below, we’ve listed the top 10 must-visit tourist spots in Himachal Pradesh, along with how our taxi service can make your journey seamless and enjoyable.  
+        Himachal Pradesh, with its majestic mountains, serene valleys, and rich cultural heritage, is a paradise for travelers. Whether you&apos;re here for the snow-capped peaks, ancient temples, or lush landscapes, there&apos;s something for everyone in this beautiful state. The best way to explore Himachal Pradesh is with a reliable taxi service. Below, we’ve listed the top 10 must-visit tourist spots in Himachal Pradesh, along with how our taxi service can make your journey seamless and enjoyable.  
         </p>
         
        
@@ -226,7 +226,7 @@ export default function Blog1() {
 
         <div className="flex items-center">
           <span className="text-yellow-400 text-xl mr-3">🌍</span>
-          <p className="text-lg"><span className="text-yellow-300 font-semibold">Convenience:</span> Whether you're heading to a hill station, a remote valley, or a serene village, our taxis will take you there directly.</p>
+          <p className="text-lg"><span className="text-yellow-300 font-semibold">Convenience:</span> Whether You&apos;re heading to a hill station, a remote valley, or a serene village, our taxis will take you there directly.</p>
         </div>
 
         <div className="flex items-center">

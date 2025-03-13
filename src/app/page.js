@@ -94,15 +94,15 @@ import Marquee from 'react-fast-marquee';
 
 // ✅ Define metadata for SEO
 export const metadata = {
-  title: 'Taxi Service in Goa | Taxi Cab Service - Dhanishtaxiservice',
-  description: 'Book reliable taxi services in Goa with Dhanish Taxi Service. Enjoy safe, affordable, and comfortable rides with our professional drivers. Call now!',
+  title: 'Taxi Service in Himachal | Taxi Cab Service - Xplorootaxiservice',
+  description: 'Book reliable taxi services in Himachal with  Xploroo Taxi Service. Enjoy safe, affordable, and comfortable rides with our professional drivers. Call now!',
   keywords: [
-    'Taxi service in goa ',
+    'Taxi service in Himachal ',
     'taxi cab service',
     
   ],
   alternates: {
-    canonical: 'https://dhanishtaxiservice.com/',
+    canonical: 'https://Xplorootaxiservice.com/',
   },
 };
 
@@ -139,7 +139,7 @@ export default function Home() {
 
         <BackgroundVideoSection
           videoSrc="https://videos.pexels.com/video-files/4443766/4443766-hd_1920_1080_25fps.mp4"
-          text="EXPLORE GOA WITH US ANY TIME ANYWHERE"
+          text="EXPLORE Himachal WITH US ANY TIME ANYWHERE"
         />
 
         <section id="activities">
