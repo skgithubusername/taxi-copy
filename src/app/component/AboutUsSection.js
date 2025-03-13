@@ -12,7 +12,7 @@ const AboutUs = () => {
       <div className="w-full md:w-1/2 flex justify-center items-center p-4">
         {/* You can place an image or any other content here */}
         <img 
-          src="/img/blog/home14.jpg" 
+          src="/logo2.png" 
           alt="About Us" 
           className="w-full h-auto rounded-lg shadow-lg"
         />
