@@ -27,7 +27,7 @@ const AboutUs = () => {
 
         </p>
         <p className='text-md my-4 lg:text-xl font-light text-primary'>
-        At Xploroo Taxi, we're passionate about providing seamless and affordable taxi booking experiences across Himachal Pradesh. Our mission is to make travel easy, convenient, and enjoyable for everyone.
+        At Xploroo Taxi, We&rsquo;re passionate about providing seamless and affordable taxi booking experiences across Himachal Pradesh. Our mission is to make travel easy, convenient, and enjoyable for everyone.
 
         </p>
 
