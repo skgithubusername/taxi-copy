@@ -23,12 +23,12 @@ const Footer = () => {
                         <p className="mb-4 font-medium text-2xl"> Xploroo Taxi Service Himachal</p>
                         <div className="flex space-x-4">
                             <button className="bg-white text-black px-4 py-2 rounded border-2 hover:bg-black hover:text-white hover:border-primary font-semibold transition-colors duration-300 ease-in-out">
-                                <a href="tel:+917083394460" className="hover:text-gray-300 transition-colors duration-300 ease-in-out">
+                                <a href="tel:+918091595344" className="hover:text-gray-300 transition-colors duration-300 ease-in-out">
                                     CALL NOW
                                 </a>
                             </button>
                             <a
-                                href="https://wa.me/917083394460"
+                                href="https://wa.me/918091595344"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-green-500 text-white ps-2.5 pr-0.5 rounded-full border-2 border-green-500 hover:bg-white hover:text-green-500 font-semibold transition-colors duration-300 ease-in-out flex items-center"
@@ -85,8 +85,8 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li className="mb-2">
-                                <a href="tel:+917083394460" className="hover:text-gray-300 transition-colors duration-300 ease-in-out">
-                                8091595344
+                                <a href="tel:+918091595344" className="hover:text-gray-300 transition-colors duration-300 ease-in-out">
+                                    +91 8091595344
                                 </a>
                             </li>
                             {/* <li className="mb-2">

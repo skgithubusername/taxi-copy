@@ -186,14 +186,16 @@ const Navbar = () => {
   const [isTransparent, setIsTransparent] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
 
+
+
   const navItems = [
-    { name: 'HOME', link: '/' },
-    { name: 'ABOUT', link: '/about' },
-    { name: 'SERVICE', link: '/services' },
-    { name: 'CARS', link: '/cars' },
-    { name: 'ACTIVITIES', link: '/activities' },
-    { name: 'PLACES', link: '/places' },
-    { name: 'RENTALS', link: '/rentals' },
+    { name: 'HOME', link: '#home' },
+    { name: 'ABOUT', link: '#about' },
+    { name: 'SERVICE', link: '#services' },
+    { name: 'CARS', link: '#cars' },
+    // { name: 'ACTIVITIES', link: '/activities' },
+    { name: 'PLACES', link: '#places' },
+    { name: 'RENTALS', link: '#rentals' },
   ];
 
   const blogItems = [
