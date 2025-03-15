@@ -1,6 +1,8 @@
 
-"use client"; // Ensures this is a Client Component
-export default function Home() {
+"use client"; 
+
+import { FaPhone } from "react-icons/fa";
+export default function Blog6() {
     const handleShare = async () => {
         if (navigator.share) {
           try {
@@ -110,9 +112,18 @@ export default function Home() {
           <h3 className="text-2xl md:text-4xl font-bold text-yellow-400  mb-6">
             Xploroo Taxi – Where Adventure Meets Affordability! 🏍✨
           </h3>
-          <p className="text-lg text-gray-200 mb-8">
-            Contact us today to plan your perfect summer getaway!
-          </p>
+          <p className="text-lg text-gray-200 mb-8 text-center">
+  Contact us today to plan your perfect summer getaway!
+  <div className="flex justify-center items-center mt-4">
+    <a
+      href="tel:+918091595344"
+      className="flex items-center gap-2 px-6 py-3 bg-yellow-500 text-black font-bold rounded-full shadow-lg hover:bg-yellow-600 hover:shadow-xl transition-all duration-300 ease-in-out"
+    >
+      <FaPhone size={20} /> Call Now
+    </a>
+  </div>
+</p>
+
          
 
              {/* Single Share Button */}
