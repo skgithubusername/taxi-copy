@@ -204,6 +204,7 @@ const Navbar = () => {
     { name: 'Blog 3', link: '/blog/blog3' },
     { name: 'Blog 4', link: '/blog/blog4' },
     { name: 'Blog 5', link: '/blog/blog5' },
+    { name: 'Blog 6', link: '/blog/blog6' },
   ];
 
   useEffect(() => {
