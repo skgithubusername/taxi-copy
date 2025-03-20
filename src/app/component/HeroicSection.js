@@ -74,7 +74,7 @@ const HeroicSection = () => {
               <input
                 type="text"
                 id="name"
-                className="w-full p-2 border bg-secondary text-primary border-primary placeholder-[#a3fefc]"
+                className="w-full p-2 border bg-secondary text-primary border-primary placeholder-[#fa6cb4]"
                 placeholder="Your Name"
                 value={formData.name}
                 onChange={handleChange}
@@ -89,7 +89,7 @@ const HeroicSection = () => {
               <input
                 type="text"
                 id="contact"
-                className="w-full p-2 border bg-secondary text-primary border-primary placeholder-[#a3fefc]"
+                className="w-full p-2 border bg-secondary text-primary border-primary placeholder-[#fa6cb4]"
                 placeholder="Your Contact Information"
                 value={formData.contact}
                 onChange={handleChange}
@@ -103,7 +103,7 @@ const HeroicSection = () => {
               </label>
               <select
                 id="service"
-                className="w-full p-2 border bg-secondary text-primary border-primary placeholder-[#a3fefc]"
+                className="w-full p-2 border bg-secondary text-primary border-primary placeholder-[#fa6cb4]"
                 value={formData.service}
                 onChange={handleChange}
               >
@@ -123,7 +123,7 @@ const HeroicSection = () => {
               </label>
               <textarea
                 id="message"
-                className="w-full p-2 border bg-secondary text-primary border-primary placeholder-[#a3fefc]"
+                className="w-full p-2 border bg-secondary text-primary border-primary placeholder-[#fa6cb4]"
                 placeholder="Your Message"
                 value={formData.message}
                 onChange={handleChange}
@@ -133,7 +133,7 @@ const HeroicSection = () => {
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full bg-primary text-black py-4 hover:bg-[#a3fefc] transition"
+              className="w-full bg-primary text-black py-4 hover:bg-[#fa6cb4] transition"
             >
               Submit
             </button>

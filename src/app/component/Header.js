@@ -59,7 +59,7 @@
 //   return (
 //     <nav
 //       className={`fixed w-full top-0 z-50 transition-colors duration-300 ${
-//         isTransparent && !isOpen ? 'bg-transparent' : 'bg-[#04a9b6]'
+//         isTransparent && !isOpen ? 'bg-transparent' : 'bg-[#f32b8b]'
 //       }`}
 //     >
 //       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -77,7 +77,7 @@
 //                   href={item.link}
 //                   onClick={(e) => handleClick(e, item.link)}
 //                   className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300 ${
-//                     isTransparent && !isOpen ? 'text-white hover:bg--[#04a9b6]' : 'text-black hover:bg--[#04a9b6]'
+//                     isTransparent && !isOpen ? 'text-white hover:bg--[#f32b8b]' : 'text-black hover:bg--[#f32b8b]'
 //                   }`}
 //                 >
 //                   {item.name}
@@ -98,7 +98,7 @@
 //             <button
 //               onClick={() => setIsOpen(!isOpen)}
 //               className={`inline-flex items-center justify-center p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white transition-colors duration-300 ${
-//                 isTransparent && !isOpen ? 'text-white hover:bg--[#04a9b6]' : 'text-black hover:bg--[#04a9b6]'
+//                 isTransparent && !isOpen ? 'text-white hover:bg--[#f32b8b]' : 'text-black hover:bg--[#f32b8b]'
 //               }`}
 //             >
 //               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -116,7 +116,7 @@
 //                 href={item.link}
 //                 onClick={(e) => handleClick(e, item.link)}
 //                 className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
-//                   isTransparent && !isOpen ? 'text-white hover:bg--[#04a9b6]' : 'text-black hover:bg--[#04a9b6]'
+//                   isTransparent && !isOpen ? 'text-white hover:bg--[#f32b8b]' : 'text-black hover:bg--[#f32b8b]'
 //                 }`}
 //               >
 //                 {item.name}
@@ -240,7 +240,7 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-6">
             {navItems.map((item) => (
-              <Link key={item.name} href={item.link} className="text-black hover:text-[#04a9b6] transition">
+              <Link key={item.name} href={item.link} className="text-black hover:text-[#f32b8b] transition">
                 {item.name}
               </Link>
             ))}
@@ -249,7 +249,7 @@ const Navbar = () => {
             <div className="relative">
               <button
                 onClick={() => setIsBlogOpen(!isBlogOpen)}
-                className="flex items-center text-black hover:text-[#04a9b6] transition"
+                className="flex items-center text-black hover:text-[#f32b8b] transition"
               >
                 BLOG <ChevronDown className="ml-1 w-4 h-4" />
               </button>
@@ -259,7 +259,7 @@ const Navbar = () => {
                     <Link
                       key={blog.name}
                       href={blog.link}
-                      className="block px-4 py-2 text-black hover:bg-[#04a9b6] transition"
+                      className="block px-4 py-2 text-black hover:bg-[#f32b8b] transition"
                       onClick={() => setIsBlogOpen(false)}
                     >
                       {blog.name}
@@ -269,14 +269,14 @@ const Navbar = () => {
               )}
             </div>
 
-            <Link href="/contact" className="px-4 py-2 bg-[#063b46] text-white rounded-md transition hover:bg-[#04a9b6]">
+            <Link href="/contact" className="px-4 py-2 bg-[#540322] text-white rounded-md transition hover:bg-[#fa298e]">
               CONTACT US
             </Link>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="lg:hidden flex items-center">
-            <button onClick={() => setIsOpen(!isOpen)} className="text-black hover:bg-[#04a9b6] p-2 rounded-md transition">
+            <button onClick={() => setIsOpen(!isOpen)} className="text-black hover:bg-[#f32b8b] p-2 rounded-md transition">
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
           </div>
@@ -288,14 +288,14 @@ const Navbar = () => {
         <div className="lg:hidden bg-white shadow-md py-2">
           <div className="px-3 space-y-2">
             {navItems.map((item) => (
-              <Link key={item.name} href={item.link} className="block text-black hover:bg-[#04a9b6] p-2 rounded-md transition" onClick={() => setIsOpen(false)}>
+              <Link key={item.name} href={item.link} className="block text-black hover:bg-[#f32b8b] p-2 rounded-md transition" onClick={() => setIsOpen(false)}>
                 {item.name}
               </Link>
             ))}
 
             {/* Blog Dropdown (Mobile) */}
             <div className="relative">
-              <button onClick={() => setIsBlogOpen(!isBlogOpen)} className="flex items-center text-black hover:text-[#04a9b6] w-full p-2">
+              <button onClick={() => setIsBlogOpen(!isBlogOpen)} className="flex items-center text-black hover:text-[#f32b8b] w-full p-2">
                 BLOG <ChevronDown className="ml-1 w-4 h-4" />
               </button>
               {isBlogOpen && (
@@ -304,7 +304,7 @@ const Navbar = () => {
                     <Link
                       key={blog.name}
                       href={blog.link}
-                      className="block text-black hover:bg-[#04a9b6] p-2 rounded-md transition"
+                      className="block text-black hover:bg-[#f32b8b] p-2 rounded-md transition"
                       onClick={() => {
                         setIsBlogOpen(false);
                         setIsOpen(false);
@@ -317,7 +317,7 @@ const Navbar = () => {
               )}
             </div>
 
-            <Link href="/contact" className="block bg-[#063b46] text-white p-2 rounded-md transition hover:bg-[#04a9b6] text-center">
+            <Link href="/contact" className="block bg-[#540322] text-white p-2 rounded-md transition hover:bg-[#f32b8b] text-center">
               CONTACT US
             </Link>
           </div>

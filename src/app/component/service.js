@@ -63,9 +63,9 @@ const services = [
 
 const Service = () => {
     return (
-        <div className='bg-[#f0fdfa] py-20' id='service'>
+        <div className='bg-gradient-to-b from-pink-50 to-pink-100  py-20' id='service'>
             <div className='w-11/12 md:w-10/12 mx-auto'>
-                <p className='text-3xl md:text-4xl text-[#008080] font-bold text-center mb-8'>Our Services</p>
+                <p className='text-3xl md:text-4xl text-[#e41e73] font-bold text-center mb-8'>Our Services</p>
                 <p className='text-xl md:text-2xl font-light text-gray-700 text-center mb-12'>
                     We’re specialized in providing high-quality taxi services in Himachal.
                 </p>
@@ -76,7 +76,7 @@ const Service = () => {
                             className="bg-white py-6 px-4 rounded-lg shadow-md hover:shadow-lg transition-shadow "
                         >
                             <img className="w-full h-40 object-contain mb-4" src={service.image} alt={service.title} />
-                            <h3 className='text-xl text-[#008080] font-semibold mb-2 text-center'>{service.title}</h3>
+                            <h3 className='text-xl text-[#e41e73] font-semibold mb-2 text-center'>{service.title}</h3>
                             <p className="text-md text-gray-600 text-center">{service.description}</p>
                         </div>
                     ))}

@@ -100,9 +100,9 @@ const CarSection = () => {
     };
 
     return (
-        <div className='bg-[#f0fdfa] py-28'>
+        <div className='bg-gradient-to-b from-pink-50 to-pink-100 py-28'>
             <div className='mx-10'>
-                <h2 className='text-3xl md:text-4xl text-[#008080] font-bold text-center mb-12'>Our Cars</h2>
+                <h2 className='text-3xl md:text-4xl text-[#e41e73] font-bold text-center mb-12'>Our Cars</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6">
                     {cars.map(car => (
                         <div
@@ -115,7 +115,7 @@ const CarSection = () => {
                                 src={car.image}
                                 alt={car.alt}
                             />
-                            <div className="absolute inset-0 bg-[#008080] opacity-0 transition-opacity duration-300 group-hover:opacity-60"></div>
+                            <div className="absolute inset-0 bg-[#e41e73] opacity-0 transition-opacity duration-300 group-hover:opacity-60"></div>
                             <div className="absolute inset-0 flex justify-center items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 cursor-pointer">
                                 <span className="text-white text-lg font-bold">{car.alt}</span>
                             </div>
@@ -127,7 +127,7 @@ const CarSection = () => {
                     <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
                         <div className="relative bg-white p-6 rounded-lg shadow-xl max-w-3xl w-full">
                             <button
-                                className="absolute top-2 right-2 text-gray-600 hover:text-[#008080] text-3xl"
+                                className="absolute top-2 right-2 text-gray-600 hover:text-[#e41e73] text-3xl"
                                 onClick={handleClose}
                             >
                                 &times;
@@ -137,7 +137,7 @@ const CarSection = () => {
                                 src={activeCar.image}
                                 alt={activeCar.alt}
                             />
-                            <h2 className="text-2xl font-bold text-[#008080] mb-2">{activeCar.alt}</h2>
+                            <h2 className="text-2xl font-bold text-[#e41e73] mb-2">{activeCar.alt}</h2>
                             <p className="text-gray-700">{activeCar.description}</p>
                         </div>
                     </div>

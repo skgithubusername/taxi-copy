@@ -102,9 +102,9 @@ const blogLinks = [
 
 const BlogLinks = () => {
   return (
-    <div className=" mx-auto p-6  bg-[#ecffff]">
+    <div className=" mx-auto p-6  bg-gradient-to-b from-pink-50 to-pink-100">
      <div className=" flex justify-center items-center my-12">
-     <h2 className="text-2xl font-bold  text-teal-600 flex items-center mb-4">
+     <h2 className="text-2xl font-bold  text-pink-600 flex items-center mb-4">
         <FileText className="mr-2" /> Latest Blogs
       </h2>
      </div>
@@ -114,7 +114,7 @@ const BlogLinks = () => {
     <Link
       key={blog.id}
       href={blog.url}
-      className="flex items-center justify-between bg-[#008080] rounded-lg hover:bg-[#20B2AA] hover:text-[#004D4D] transition duration-300 p-3 min-w-min flex-1 basis-20 md:max-w-xs"
+      className="flex items-center justify-between bg-pink-500 rounded-lg hover:bg-pink-600 hover:text-[#004D4D] transition duration-300 p-3 min-w-min flex-1 basis-20 md:max-w-xs"
     >
       <span className="text-white font-medium truncate mr-2">{blog.title}</span>
       <ArrowRight className="w-5 h-5 flex-shrink-0 text-white" />
