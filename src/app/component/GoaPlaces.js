@@ -139,7 +139,13 @@ const places = [
 
     // South Himachal
     { id: 14, title: 'Andaman And Nicobar', category: 'south-Himachal', description: 'Explore the Andaman And Nicobar.', image: '/img/blog/home14.jpg' },
-    // { id: 14, title: 'Balaji Temple', category: 'south-Himachal', description: 'A beautiful temple dedicated to Lord Balaji, known for its serene environment.', image: '/img/blog/home14.jpg' },
+    { id: 15, title: 'Andaman And Nicobar', category: 'south-Himachal', description: 'Explore the Andaman And Nicobar.', image: '/img/blog/home15.jpg' },
+    { id: 16, title: 'Andaman And Nicobar', category: 'south-Himachal', description: 'Explore the Andaman And Nicobar.', image: '/img/blog/home16.jpg' },
+    { id: 17, title: 'Andaman And Nicobar', category: 'south-Himachal', description: 'Explore the Andaman And Nicobar.', image: '/img/blog/home17.jpg' },
+    { id: 18, title: 'Andaman And Nicobar', category: 'south-Himachal', description: 'Explore the Andaman And Nicobar.', image: '/img/blog/home18.jpg' },
+    { id: 19, title: 'Andaman And Nicobar', category: 'south-Himachal', description: 'Explore the Andaman And Nicobar.', image: '/img/blog/home19.jpg' },
+    { id: 20, title: 'Andaman And Nicobar', category: 'south-Himachal', description: 'Explore the Andaman And Nicobar.', image: '/img/blog/home20.jpg' },
+    { id: 21, title: 'Andaman And Nicobar', category: 'south-Himachal', description: 'Explore the Andaman And Nicobar.', image: '/img/blog/home21.jpg' },
 
 ];
 

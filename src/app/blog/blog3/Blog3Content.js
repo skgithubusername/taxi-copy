@@ -20,10 +20,10 @@ export default function Blog3Content() {
   };
 
    return (
-     <div className="bg-black  text-gray-300 p-8 min-h-screen">
+     <div className="bg-teal-900  text-white p-8 min-h-screen">
        <div className="max-w-6xl mx-auto">
-         <h2 className="text-3xl text-yellow-500 font-bold text-center mb-6">Why Booking a Local Himachal Pradesh Taxi Service is Better Than Renting a Vehicle  </h2>
-         <p className=" text-gray-300">Himachal Pradesh, with its breathtaking mountains, serene valleys, and vibrant culture, is a dream destination for travelers. While renting a vehicle might seem like a good idea for independent exploration, hiring a local taxi service offers unmatched comfort, safety, and convenience. Here’s why choosing a cab in Himachal Pradesh is a smarter choice than renting a vehicle.  </p>
+         <h2 className="text-3xl text-white font-bold text-center mb-6">Why Booking a Local Himachal Pradesh Taxi Service is Better Than Renting a Vehicle  </h2>
+         <p className=" text-teal-100">Himachal Pradesh, with its breathtaking mountains, serene valleys, and vibrant culture, is a dream destination for travelers. While renting a vehicle might seem like a good idea for independent exploration, hiring a local taxi service offers unmatched comfort, safety, and convenience. Here’s why choosing a cab in Himachal Pradesh is a smarter choice than renting a vehicle.  </p>
          
          <div className="grid my-12 grid-cols-1 md:grid-cols-2 gap-6 ">
            <BenefitItem icon={<FaCar />} title="No Parking Hassles" description="Finding parking in popular tourist spots like Manali, Shimla, or Dharamshala can be a nightmare, especially during peak seasons. With a taxi, you don’t have to worry about parking spaces or paying hefty parking fees. Simply hop in, enjoy your trip, and let your driver handle the rest.  " />
@@ -53,7 +53,7 @@ export default function Blog3Content() {
          <section className=" mt-8 text-center mb-12">
           <button
             onClick={handleShare}
-            className="px-6 py-3 bg-yellow-400 text-black font-bold rounded-lg shadow-lg hover:bg-yellow-500 transition"
+            className="px-6 py-3 bg-teal-400 text-black font-bold rounded-lg shadow-lg hover:bg-teal-500 transition"
           >
             📤 Share This Blog
           </button>
@@ -66,10 +66,10 @@ export default function Blog3Content() {
 
 const BenefitItem = ({ icon, title, description }) => {
     return (
-      <div className="flex items-center space-x-4 bg-black text-yellow-500 p-4 rounded-lg shadow-md">
+      <div className="flex items-center space-x-4 bg-white text-teal-500 p-4 rounded-lg shadow-md hover:shadow-teal-200">
         <div className="text-3xl">{icon}</div>
         <div>
-          <h3 className="text-xl font-semibold">{title}</h3>
+          <h3 className="text-xl text-teal-900 font-semibold">{title}</h3>
           <p className="text-sm">{description}</p>
         </div>
       </div>

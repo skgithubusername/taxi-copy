@@ -97,6 +97,7 @@ const blogLinks = [
   { id: 4, title: "Blog 4", url: "/blog/blog4" },
   { id: 5, title: "Blog 5", url: "/blog/blog5" },
   { id: 5, title: "Blog 6", url: "/blog/blog6" },
+  { id: 5, title: "Blog 7", url: "/blog/blog7" },
 ];
 
 const BlogLinks = () => {

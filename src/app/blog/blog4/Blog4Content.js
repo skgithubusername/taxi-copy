@@ -18,7 +18,7 @@ export default function Blog4Content() {
   };
 
   return (
-    <div className="bg-black text-yellow-400 min-h-screen p-6">
+    <div className="bg-teal-900 text-white min-h-screen p-6">
       <h1 className="text-4xl font-bold text-center mb-6">
         Exploring Himachal Pradesh&rsquo;s Secrets: Unconventional Sites with Taxi Access
       </h1>
@@ -27,8 +27,8 @@ export default function Blog4Content() {
       </p>
       
       <div className="grid md:grid-cols-2 my-12 gap-6">
-        <div className="border-2 border-yellow-500  text-gray-300 p-4 rounded-lg shadow-lg">
-          <h2 className="text-2xl text-yellow-500 font-bold flex items-center">
+        <div className="border-2 border-teal-500  text-gray-200 p-4 rounded-lg shadow-lg">
+          <h2 className="text-2xl text-teal-200 font-bold flex items-center">
             ⛰ Barot Valley: A Tranquil Escape into the Wild
           </h2>
           <p className="mt-2">
@@ -39,8 +39,8 @@ export default function Blog4Content() {
           </p>
         </div>
 
-        <div className=" border-2  border-yellow-500  text-gray-300 p-4 rounded-lg shadow-lg">
-          <h2 className="text-2xl text-yellow-500 font-bold flex items-center">
+        <div className=" border-2  border-teal-500  text-gray-300 p-4 rounded-lg shadow-lg">
+          <h2 className="text-2xl text-teal-200 font-bold flex items-center">
             🏛 Malana Village: A Little-Known Jewel Steeped in Mystery
           </h2>
           <p className="mt-2">
@@ -81,7 +81,7 @@ export default function Blog4Content() {
       </p>
       
       <div className="text-center mt-8">
-        <button className="bg-yellow-400 text-black font-bold px-6 py-2 rounded-lg shadow-lg hover:bg-yellow-500">
+        <button className="bg-teal-400 text-teal-900 font-bold px-6 py-2 rounded-lg shadow-lg hover:bg-teal-500">
           🚗 Book Your Taxi Today and Uncover the Hidden Beauty of Himachal Pradesh!
         </button>
       </div>
@@ -90,7 +90,7 @@ export default function Blog4Content() {
            <section className=" mt-8 text-center mb-12">
           <button
             onClick={handleShare}
-            className="px-6 py-3 bg-yellow-400 text-black font-bold rounded-lg shadow-lg hover:bg-yellow-500 transition"
+            className="px-6 py-3 bg-teal-400 text-teal-900 font-bold rounded-lg shadow-lg hover:bg-teal-500 transition"
           >
             📤 Share This Blog
           </button>

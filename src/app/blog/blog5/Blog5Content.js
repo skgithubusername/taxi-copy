@@ -19,7 +19,7 @@ export default function Blog4Content() {
   };
 
   return (
-    <div className="bg-black text-yellow-400 min-h-screen p-6">
+    <div className="bg-teal-900 text-white min-h-screen p-6">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-center mb-6">
           How to Choose the Best Taxi Service in Himachal Pradesh: A Complete Guide
@@ -130,7 +130,7 @@ export default function Blog4Content() {
        <section className=" mt-8 text-center mb-12">
           <button
             onClick={handleShare}
-            className="px-6 py-3 bg-yellow-400 text-black font-bold rounded-lg shadow-lg hover:bg-yellow-500 transition"
+            className="px-6 py-3 bg-teal-400 text-black font-bold rounded-lg shadow-lg hover:bg-teal-500 transition"
           >
             📤 Share This Blog
           </button>
