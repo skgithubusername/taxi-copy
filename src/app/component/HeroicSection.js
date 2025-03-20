@@ -133,7 +133,7 @@ const HeroicSection = () => {
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full bg-primary text-black py-4 hover:bg-yellow-700 transition"
+              className="w-full bg-primary text-black py-4 hover:bg-[#a3fefc] transition"
             >
               Submit
             </button>

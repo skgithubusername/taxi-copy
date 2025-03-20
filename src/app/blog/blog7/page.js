@@ -16,7 +16,7 @@ const Blog7 = () => {
                 
                 <div className=" text-white p-8 rounded-xl shadow-lg mb-10">
                     {/* <h2 className="text-4xl font-bold mb-6 text-center">Your Himalayan Adventure Awaits</h2> */}
-                    <p className="text-xl mb-6 text-center">Are you ready to hit the road and explore the breathtaking landscapes of Himachal Pradesh? Xploroo, the first company to offer solo traveler bike tours, brings you exclusive ride packages that promise adventure, freedom, and unforgettable memories. Whether you're a solo traveler or a group of thrill-seekers, our packages are designed to give you the ultimate biking experience</p>
+                    <p className="text-xl mb-6 text-center">Are you ready to hit the road and explore the breathtaking landscapes of Himachal Pradesh? Xploroo, the first company to offer solo traveler bike tours, brings you exclusive ride packages that promise adventure, freedom, and unforgettable memories. Whether you&rsquo;re a solo traveler or a group of thrill-seekers, our packages are designed to give you the ultimate biking experience</p>
                     <div className="flex justify-center">
                         {/* <button className="bg-black text-yellow-400 px-8 py-3 rounded-full font-bold text-xl hover:bg-gray-800 transition duration-300">
                             Book Your Ride Today
