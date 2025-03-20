@@ -83,7 +83,7 @@ const AboutUs = () => {
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-teal-900 to-transparent p-6">
               <div className="flex items-center justify-center">
-                <span className="bg-white text-teal-700 px-4 py-2 rounded-full font-bold text-sm">Since 2020</span>
+                {/* <span className="bg-white text-teal-700 px-4 py-2 rounded-full font-bold text-sm">Since 2020</span> */}
               </div>
             </div>
           </div>

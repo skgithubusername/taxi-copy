@@ -101,25 +101,26 @@ const blogLinks = [
 
 const BlogLinks = () => {
   return (
-    <div className=" mx-auto p-6  bg-secondary">
+    <div className=" mx-auto p-6  bg-[#ecffff]">
      <div className=" flex justify-center items-center my-12">
-     <h2 className="text-2xl font-bold  text-yellow-400 flex items-center mb-4">
+     <h2 className="text-2xl font-bold  text-teal-600 flex items-center mb-4">
         <FileText className="mr-2" /> Latest Blogs
       </h2>
      </div>
       
-      <div className="flex lg:justify-center lg:items-center flex-wrap gap-3">
-        {blogLinks.map((blog) => (
-          <Link
-            key={blog.id}
-            href={blog.url}
-            className="flex items-center justify-between bg-gray-800 rounded-lg hover:bg-yellow-500 hover:text-gray-900 transition duration-300 p-3 min-w-min flex-1 basis-20 md:max-w-xs"
-          >
-            <span className="text-white font-medium truncate mr-2">{blog.title}</span>
-            <ArrowRight className="w-5 h-5 flex-shrink-0" />
-          </Link>
-        ))}
-      </div>
+     <div className="flex lg:justify-center lg:items-center flex-wrap gap-3">
+  {blogLinks.map((blog) => (
+    <Link
+      key={blog.id}
+      href={blog.url}
+      className="flex items-center justify-between bg-[#008080] rounded-lg hover:bg-[#20B2AA] hover:text-[#004D4D] transition duration-300 p-3 min-w-min flex-1 basis-20 md:max-w-xs"
+    >
+      <span className="text-white font-medium truncate mr-2">{blog.title}</span>
+      <ArrowRight className="w-5 h-5 flex-shrink-0 text-white" />
+    </Link>
+  ))}
+</div>
+
     </div>
   );
 };
