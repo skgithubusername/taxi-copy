@@ -59,7 +59,7 @@
 //   return (
 //     <nav
 //       className={`fixed w-full top-0 z-50 transition-colors duration-300 ${
-//         isTransparent && !isOpen ? 'bg-transparent' : 'bg-yellow-500'
+//         isTransparent && !isOpen ? 'bg-transparent' : 'bg-[#04a9b6]'
 //       }`}
 //     >
 //       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -77,7 +77,7 @@
 //                   href={item.link}
 //                   onClick={(e) => handleClick(e, item.link)}
 //                   className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300 ${
-//                     isTransparent && !isOpen ? 'text-white hover:bg-yellow-600' : 'text-black hover:bg-yellow-600'
+//                     isTransparent && !isOpen ? 'text-white hover:bg--[#04a9b6]' : 'text-black hover:bg--[#04a9b6]'
 //                   }`}
 //                 >
 //                   {item.name}
@@ -98,7 +98,7 @@
 //             <button
 //               onClick={() => setIsOpen(!isOpen)}
 //               className={`inline-flex items-center justify-center p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white transition-colors duration-300 ${
-//                 isTransparent && !isOpen ? 'text-white hover:bg-yellow-600' : 'text-black hover:bg-yellow-600'
+//                 isTransparent && !isOpen ? 'text-white hover:bg--[#04a9b6]' : 'text-black hover:bg--[#04a9b6]'
 //               }`}
 //             >
 //               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -116,7 +116,7 @@
 //                 href={item.link}
 //                 onClick={(e) => handleClick(e, item.link)}
 //                 className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
-//                   isTransparent && !isOpen ? 'text-white hover:bg-yellow-600' : 'text-black hover:bg-yellow-600'
+//                   isTransparent && !isOpen ? 'text-white hover:bg--[#04a9b6]' : 'text-black hover:bg--[#04a9b6]'
 //                 }`}
 //               >
 //                 {item.name}
@@ -205,6 +205,7 @@ const Navbar = () => {
     { name: 'Blog 4', link: '/blog/blog4' },
     { name: 'Blog 5', link: '/blog/blog5' },
     { name: 'Blog 6', link: '/blog/blog6' },
+    { name: 'Blog 7', link: '/blog/blog7' },
   ];
 
   useEffect(() => {
@@ -226,7 +227,7 @@ const Navbar = () => {
   }, [lastScrollY, isOpen]);
 
   return (
-    <nav className={`fixed w-full top-0 z-50 transition-colors duration-300 ${isTransparent && !isOpen ? 'bg-transparent' : 'bg-yellow-500'}`}>
+    <nav className={`fixed w-full top-0 z-50 transition-colors duration-300 ${isTransparent && !isOpen ? 'bg-transparent' : 'bg-white'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
         <div className="flex items-center">
@@ -239,7 +240,7 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-6">
             {navItems.map((item) => (
-              <Link key={item.name} href={item.link} className="text-black hover:text-white transition">
+              <Link key={item.name} href={item.link} className="text-black hover:text-[#04a9b6] transition">
                 {item.name}
               </Link>
             ))}
@@ -248,7 +249,7 @@ const Navbar = () => {
             <div className="relative">
               <button
                 onClick={() => setIsBlogOpen(!isBlogOpen)}
-                className="flex items-center text-black hover:text-white transition"
+                className="flex items-center text-black hover:text-[#04a9b6] transition"
               >
                 BLOG <ChevronDown className="ml-1 w-4 h-4" />
               </button>
@@ -258,7 +259,7 @@ const Navbar = () => {
                     <Link
                       key={blog.name}
                       href={blog.link}
-                      className="block px-4 py-2 text-black hover:bg-yellow-500 transition"
+                      className="block px-4 py-2 text-black hover:bg-[#04a9b6] transition"
                       onClick={() => setIsBlogOpen(false)}
                     >
                       {blog.name}
@@ -268,14 +269,14 @@ const Navbar = () => {
               )}
             </div>
 
-            <Link href="/contact" className="px-4 py-2 bg-gray-900 text-white rounded-md transition hover:bg-gray-700">
+            <Link href="/contact" className="px-4 py-2 bg-[#063b46] text-white rounded-md transition hover:bg-[#04a9b6]">
               CONTACT US
             </Link>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="lg:hidden flex items-center">
-            <button onClick={() => setIsOpen(!isOpen)} className="text-black hover:bg-yellow-600 p-2 rounded-md transition">
+            <button onClick={() => setIsOpen(!isOpen)} className="text-black hover:bg-[#04a9b6] p-2 rounded-md transition">
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
           </div>
@@ -287,14 +288,14 @@ const Navbar = () => {
         <div className="lg:hidden bg-white shadow-md py-2">
           <div className="px-3 space-y-2">
             {navItems.map((item) => (
-              <Link key={item.name} href={item.link} className="block text-black hover:bg-yellow-500 p-2 rounded-md transition" onClick={() => setIsOpen(false)}>
+              <Link key={item.name} href={item.link} className="block text-black hover:bg-[#04a9b6] p-2 rounded-md transition" onClick={() => setIsOpen(false)}>
                 {item.name}
               </Link>
             ))}
 
             {/* Blog Dropdown (Mobile) */}
             <div className="relative">
-              <button onClick={() => setIsBlogOpen(!isBlogOpen)} className="flex items-center text-black hover:text-yellow-500 w-full p-2">
+              <button onClick={() => setIsBlogOpen(!isBlogOpen)} className="flex items-center text-black hover:text-[#04a9b6] w-full p-2">
                 BLOG <ChevronDown className="ml-1 w-4 h-4" />
               </button>
               {isBlogOpen && (
@@ -303,7 +304,7 @@ const Navbar = () => {
                     <Link
                       key={blog.name}
                       href={blog.link}
-                      className="block text-black hover:bg-yellow-500 p-2 rounded-md transition"
+                      className="block text-black hover:bg-[#04a9b6] p-2 rounded-md transition"
                       onClick={() => {
                         setIsBlogOpen(false);
                         setIsOpen(false);
@@ -316,7 +317,7 @@ const Navbar = () => {
               )}
             </div>
 
-            <Link href="/contact" className="block bg-gray-900 text-white p-2 rounded-md transition hover:bg-gray-700 text-center">
+            <Link href="/contact" className="block bg-[#063b46] text-white p-2 rounded-md transition hover:bg-[#04a9b6] text-center">
               CONTACT US
             </Link>
           </div>
